@@ -10,7 +10,7 @@ function emailContainAlphabetsSpecialChars() {
 
             if (!validation) {
                 document.getElementById("email").style.borderColor='red';
-                document.getElementById("error").innerHTML="Please provide a valid email address";
+                document.getElementById("error").innerHTML="Check your email please";
             } else { 
                 document.getElementById("success").innerHTML="Email submitted";
                 document.getElementById("error").style.display='none';
