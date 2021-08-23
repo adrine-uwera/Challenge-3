@@ -357,7 +357,7 @@ form{
 /*Phone*/
 @media screen and (max-width:768px){
     body {
-        width:120vh;  
+        width:100vh;  
     }
 
     main{
@@ -446,7 +446,7 @@ form{
     footer {
         flex-direction:column-reverse;
         height: 170vh;
-        width: 120vh;
+        width: 100vh;
     }
 
     .contacts{
